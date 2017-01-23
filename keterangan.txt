@@ -1,0 +1,21 @@
+TMD oleh Ferdila Rahmi(1202315)
+
+*Disain
+`Model
+Class DB inheritance
+	Class ModelSkor
+	Class ModelKata
+
+`Controller
+Class ControllerDB
+
+`View (disini tidak sesuai yang ibu spesifikasikan, karena view merangkap dengan kontroler)
+Class KataDepan
+Class KataDepanMain->didalamnya terdapat Class InputKey
+
+`Main
+
+*Alur 
+Main->KataDepan->(ControllerDB->ModelSkor->DB->)KataDepanMain->(ControllerDB->ModelKata->DB->ModelSkor->DB)
+
+
